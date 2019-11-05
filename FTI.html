@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fair Trade Investments</title>
+	 <link rel="stylesheet" type="text/css" href="FTI.css">
+ 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+ 
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand"href="Minecraft and Coffee.html"> <i class="fab fa-black-tie mr-2"></i>Fair Trade Investments</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Generic.html">Why choose FTI?</a>
+      </li>
+    
+      <!-- Genres -->
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="Generic.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Resources
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Generic.html">Tools & Platforms</a>
+          <a class="dropdown-item" href="Generic.html">Investment Products</a>
+        
+         
+        </div>
+      </li>
+
+     
+
+      <!-- Designs -->
+        <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="Generic.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Guidance
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Generic.html">Retirment</a>
+          <a class="dropdown-item" href="Generic.html">Education</a>
+          <a class="dropdown-item" href="Generic.html">College</a> 
+        </div>
+      </li>
+
+     <li class="nav-item active">
+        <a class="nav-link" href="Generic.html">Research</a>
+      </li>
+    
+
+
+     
+
+      <!-- Sign In -->
+      <li class="nav-item active">
+        <a class="nav-link" href="SignIn.html">Sign Up/ Log In</a>
+      </li>
+
+    </ul>
+  </div>
+
+</nav>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  $(function() {
+  // ------------------------------------------------------- //
+  // Multi Level dropdowns
+  // ------------------------------------------------------ //
+  $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    $(this).siblings().toggleClass("show");
+    if (!$(this).next().hasClass('show')) {
+      $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+    }
+    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+      $('.dropdown-submenu .show').removeClass("show");
+    });
+  });
+});
+</script>
+
+</body>
+</html>
