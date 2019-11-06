@@ -7,3 +7,20 @@ body{
 .navbar-brand{
 	font-size: 20px;
 }
+.jumbotron{
+	background-image: url("http://worldlandforms.com/landforms/wp-content/uploads/2015/03/Beach.jpg");
+	background-size: cover;
+	background-position: center,center;
+}
+.container{
+	position: relative;
+	bottom: -200px; 
+	color: white;
+	height: 300px;
+}
+.hj{
+	font-size: 500%;
+}
+.hc{
+	font-size: 200%;
+}
