@@ -31,12 +31,14 @@ body{
 }
 .cont{
 	position: relative;
-	bottom: -200px; 
+	bottom: -120px; 
 	color: white;
 	height: 300px;
 }
 .hj{
+	font-family: 'Lobster', cursive;
 	font-size: 500%;
+	color: white;
 }
 .hc{
 	font-size: 200%;
