@@ -4,11 +4,13 @@ body{
 .navbar{
 	font-size: 20px;
 	margin-bottom: 20px !important;
+	font-family:'Source Serif Pro', serif;
 }
 .navbar-brand{
 	font-size: 20px;
 }
 .navbar-bottom{
+	margin-top: 100px;
 	margin-bottom: 0px !important;
 	height: 150px;
 }
@@ -17,7 +19,21 @@ body{
 }
 .card{
 	margin: 30px;
-	height: 300px;
+}
+.navbar-bottom img{
+	width: 60px;
+	height: 60px;
+}
+.navbar-bottom p{
+	margin-bottom: 0px;
+	margin-right: 10px;
+	line-height: 100px;
+	height: 100px;
+	
+
+}
+.navbar-nav{
+	color: white;
 }
 
 
@@ -39,6 +55,7 @@ body{
 	font-family: 'Lobster', cursive;
 	font-size: 500%;
 	color: white;
+	margin-left: 12px;
 }
 .hc{
 	font-size: 200%;
