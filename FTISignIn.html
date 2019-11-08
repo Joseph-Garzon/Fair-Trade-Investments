@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="FTISignIn.css">
    <link rel="shortcut icon" type="image/x-icon" href="black-tie.png" />
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="center" onclick="window.location.href = 'FTI.html';">
@@ -24,20 +26,18 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit">Login</button>
+    <button type="submit" class="btn">Login</button>
     <label>
       <input type="checkbox" checked="false" name="remember"> Remember me
     </label>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-	<a href="FTISignIn.html">
-    <button type="button" class="cancelbtn" href="FTISignIn.html">Cancel</button>
-    </a>
+	 <input type="reset" name="Reset">
     <a href="ACFTI.html">
-    <button type="button" class="createbtn" href="ACFTI.html">Create Account</button>
+    <button type="button" class="createbtn btn" href="ACFTI.html">Create Account</button>
     </a>
-    <span class="psw">Forgot <a href="FTISignIn.html">password?</a></span>
+    <button type="" class="forget" align="right">Forgot Password?</button>
   </div>
 </form>
 </body>
