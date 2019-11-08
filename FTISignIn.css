@@ -8,6 +8,14 @@ form {
   width: 20%;
 }
 
+h1{
+  font-family: 'Lobster', cursive;
+}
+
+.forget{
+  float: right;
+}
+
 /* Full-width inputs */
 input[type=text], input[type=password] {
   width: 100%;
@@ -19,7 +27,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.btn {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -96,7 +104,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.btn {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -151,3 +159,4 @@ span.psw {
     width: 100%;
   }
 }
+
