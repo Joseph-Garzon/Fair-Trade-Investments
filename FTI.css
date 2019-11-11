@@ -1,5 +1,10 @@
 body{
-	background-color: gainsboro !important;
+	background-color: white !important;
+	background-image: url("https://us.123rf.com/450wm/panychev/panychev1605/panychev160500463/56616459-abstract-dark-blue-background-design-template-textured-backdrop-.jpg?ver=6");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navbar{
 	font-size: 20px;
@@ -13,28 +18,44 @@ body{
 	margin-top: 100px;
 	margin-bottom: 0px !important;
 	height: 150px;
+	align-content: middle;
+	color: white;
 }
 .container{
 	margin-top: 100px !important; 
 }
+.card-body{
+	color: white;
+}
 .card{
 	margin: 30px;
 }
-.navbar-bottom img{
+footer{
+color: white;
+}
+.navbar-brand img{
+	width: 60px;
+	height: 60px;
+}
+.contact{
+	margin-top: 8px;
+	margin-bottom: 2px;
+}
+/*.navbar-bottom img{
 	width: 60px;
 	height: 60px;
 }
 .navbar-bottom p{
 	margin-bottom: 0px;
 	margin-right: 10px;
-	line-height: 100px;
-	height: 100px;
+	align-content: middle;
 	
 
 }
 .navbar-nav{
 	color: white;
-}
+}*/
+
 
 
 
