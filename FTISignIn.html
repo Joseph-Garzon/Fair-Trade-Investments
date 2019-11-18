@@ -3,14 +3,15 @@
 <head>
   <title>Log In</title>
   <link rel="stylesheet" type="text/css" href="FTISignIn.css">
-   <link rel="shortcut icon" type="image/x-icon" href="black-tie.png"/>
+   <link rel="shortcut icon" type="image/x-icon" href="black-tie.png" />
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="center" onclick="window.location.href = 'FTI.html';">
-      <h1><i class="title fab fa-black-tie mr-2"></i> Fair Trade Investments</h1>
+      <h1><i class="fab fa-black-tie mr-2"></i> Fair Trade Investments</h1>
     </div>
 
     <form action="FTI.html" method="post">
@@ -33,14 +34,22 @@
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-   <input type="reset" name="Reset">
+	 <input type="reset" name="Reset">
     <a href="ACFTI.html">
-    <button type="button" class="gB"href="ACFTI.html">Create Account</button>
+    <button type="button" class="gB" align="center" href="ACFTI.html">Create Account</button>
     </a>
-    <a href="FTISignIn.html">
-    <button type="button" class="forget" href="FTISignIn.html" align="right">Forgot Password?</button>
-    </a>
+    
+    <button type="button" class="forget" align="right" data-toggle="modal" data-target="#myModal">Forgot Password?</button>
+    
+
+
   </div>
 </form>
+<script type="text/javascript">
+  $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+</script>
+<script src="FTISignIn.js"></script>
 </body>
 </html>
