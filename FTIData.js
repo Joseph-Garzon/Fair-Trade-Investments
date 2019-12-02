@@ -1,13 +1,4 @@
 $(document).ready(function () {
-  //your code here
-// var jospeh={4
-// 	LName:"Garzon",
-// 	FName:"Jospeh",
-// 	age:96,
-// 	CCNum:"0000-0000-0000",
-// 	SSNum:"000-00-0000",
-// 	accountNum:999
-// };
 
 var carlos={
 	LName:"Espinoza",
