@@ -82,16 +82,27 @@ var h={
 	SSNum:"000-00-0000",
 	accountNum:999
 };
+var t={
+	LName:"Saunders",
+	FName:"Muhammad",
+	age:34,
+	CCNum:"1234-5678-9123-4567",
+	SSNum:"000-00-0000",
+	accountNum:999
+};
 
 var accounts=[carlos,smallBrain,a,b,c,d,e,f,g,h];
 
 for (var i = 0; i < accounts.length; i++) {
-	$('#'+i+' #accountNum').text(accounts[i].accountNum);
-	$('#'+i+' #lastName').text(accounts[i].LName);
-	$('#'+i+' #firstName').text(accounts[i].FName);
-	$('#'+i+' #age').text(accounts[i].age);
-	$('#'+i+' #creditNum').text(accounts[i].CCNum);
-	$('#'+i+' #socSecNum').text(accounts[i].SSNum);
+	 var enter="<tr id="+i+">"
+    +"<td><span id=\"accountNum\">"+accounts[i].accountNum+"</span></td>"
+    +"<td><span id=\"lastName\">"+accounts[i].LName+"</span></td>"
+    +"<td><span id=\"firstName\">"+accounts[i].FName+"</span></td>"
+    +"<td><span id=\"age\">"+accounts[i].age+"</span></td>"
+    +"<td><span id=\"creditNum\">"+accounts[i].CCNum+"</span></td>"
+    +"<td><span id=\"socSecNum\">"+accounts[i].SSNum+"</span></td>"
+  +"</tr>";
+	$("table tbody").append(enter);
 }
 
 });
