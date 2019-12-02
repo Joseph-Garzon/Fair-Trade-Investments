@@ -4,7 +4,7 @@ var jospeh={
 	age:96,
 	CC#:"0000-0000-0000",
 	SS#:"000-00-0000",
-	account#:999
+	account#:001
 };
 
 var carlos={
@@ -13,7 +13,7 @@ var carlos={
 	age:2,
 	CC#:"1111-1111-1111",
 	SS#:"999-99-9999",
-	account#:998
+	account#:002
 };
 
 var smallBrain={
@@ -22,7 +22,7 @@ var smallBrain={
 	age:0,
 	CC#:"2222-2222-2222",
 	SS#:"888-88-8888",
-	account#:991
+	account#:003
 };
 
 var accounts=[joseph,carlos,smallBrain];
